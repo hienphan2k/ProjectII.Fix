@@ -1,0 +1,12 @@
+using UnityEngine;
+
+using Milo.StateMachine;
+
+[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "State Machine/Scriptable Object/Decision/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : Decision
+{
+    public override bool Decide(StateController controller)
+    {
+        return false;
+    }
+}

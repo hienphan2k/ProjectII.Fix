@@ -1,0 +1,12 @@
+using UnityEngine;
+
+using Milo.StateMachine;
+
+[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "State Machine/Scriptable Object/Action/#SCRIPTNAME#")]
+public class #SCRIPTNAME# : Action
+{
+    public override void Act(StateController controller)
+    {
+        #NOTRIM#
+    }
+}
